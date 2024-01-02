@@ -1,0 +1,188 @@
+#title,
+#cta {
+    text-align: left;
+}
+
+body,
+h2,
+.features h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/*sections*/
+
+.colored-section {
+    background-color:  #6fd46b;
+    color: white;
+}
+
+.white-section {
+    background-color: rgb(46, 46, 46);
+}
+
+h3, h2, p ,footer i{color: rgb(255, 255, 255);}
+/* Navbar */
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+/*download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title iamge */
+
+.dog-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-bottom: -45%;
+    margin-left: 15%;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .dog-image {
+        transform: rotate(0);
+        position: static;
+        margin: 0;
+    }
+    .nav-item {
+        text-align: left;
+    }
+}
+
+
+/* features */
+
+#features {
+    position: relative;
+}
+
+.features {
+    display: inline-block;
+    padding: 10% 4%;
+    align-items: center;
+}
+
+.features .fas {
+    font-size: 400%;
+    color: #7bc069;
+    padding-bottom: 20px;
+}
+
+h2,
+.features h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.features p {
+    color: #aaaaaa;
+}
+
+
+/*testimonials*/
+
+#testimonials-carousel,
+#press,
+.carousel-item {
+    padding: 7% 15%;
+    background-color: #63b66a;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding-bottom: 1%;
+}
+
+.press-logo {
+    width: 20%;
+    margin: -200px 20px 0;
+    position: relative;
+}
+
+
+/*pricing*/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/*cta*/
+
+#cta {
+    padding: 8% 15% 6%;
+    text-align: center;
+}
+
+.cta-header {
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+}
+
+#footer {
+    padding: 3%;
+    font-size: 1rem;
+}
+
+#footer i {
+    padding: 10px;
+}
+
+#footer p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: grey;
+}
